@@ -19,7 +19,7 @@ Serving the HTML pages.
 
 Testing the webserver
 ## PROGRAM:
-~~~
+```
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <!DOCTYPE html>
@@ -29,7 +29,7 @@ content = """
 </head>
 <body>
 <h1>Welcome</h1>
-<marquee>Saveetha Engineering Clg Ofl page</marquee>
+<marquee>Saveetha Engineering College Oficial page</marquee>
 Credits-Nithishkumar
 </body>
 </html>
@@ -45,7 +45,10 @@ server_address = ('',8090)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
-~~~
+
+```
 ## OUTPUT:
-![GitHub](C:\Users\2003n\Pictures\Screenshots/Screenshot (7).png)
+![GitHub](Screenshot.png)
+
 ## RESULT:
+A Webserver Has Been Created Successfully!
