@@ -55,6 +55,6 @@ print("my webserver is running...")
 httpd.serve_forever()
 ```
 ## OUTPUT:
-![](./Screenshot.png)
+![](/webserver.png)
 ## RESULT:
 A webserver has been successfully created
